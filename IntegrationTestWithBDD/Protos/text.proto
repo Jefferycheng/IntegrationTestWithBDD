@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "IntegrationTestsWithBDD";
+
+package text;
+
+service Text {  
+  rpc AppendText (AppendTextRequest) returns (AppendTextReply);
+}
+
+message AppendTextRequest {
+  string text = 1;
+}
+
+message AppendTextReply {
+  string message = 1;
+}

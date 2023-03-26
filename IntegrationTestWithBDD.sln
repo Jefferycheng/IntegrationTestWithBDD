@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestWithBDD", "IntegrationTestWithBDD\IntegrationTestWithBDD.csproj", "{5BC137CD-F06D-4685-86F1-065EB8116A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestWithBDD.Specflow", "IntegrationTestWithBDD.Specflow\IntegrationTestWithBDD.Specflow.csproj", "{83453E0B-0A16-49DF-B881-A304B99BC35A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BC137CD-F06D-4685-86F1-065EB8116A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC137CD-F06D-4685-86F1-065EB8116A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC137CD-F06D-4685-86F1-065EB8116A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC137CD-F06D-4685-86F1-065EB8116A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83453E0B-0A16-49DF-B881-A304B99BC35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83453E0B-0A16-49DF-B881-A304B99BC35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83453E0B-0A16-49DF-B881-A304B99BC35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83453E0B-0A16-49DF-B881-A304B99BC35A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
